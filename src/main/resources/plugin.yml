@@ -3,3 +3,11 @@ version: '${project.version}'
 main: pe.bazan.luis.plugins.miprimerplugin.MiPrimerPlugin
 api-version: 1.19
 author: "Luis Bazan"
+commands:
+  hello:
+    permission: miprimerplugin.commands.hello
+    permission-message: "No tienes permiso para usar esto"
+    description: "Este comando es para probar mi plugin"
+    usage: "El comando se usa /hello o /hola"
+    aliases:
+      - hola
