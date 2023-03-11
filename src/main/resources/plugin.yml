@@ -1,0 +1,5 @@
+name: MiPrimerPlugin
+version: '${project.version}'
+main: pe.bazan.luis.plugins.miprimerplugin.MiPrimerPlugin
+api-version: 1.19
+author: "Luis Bazan"
